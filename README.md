@@ -1,6 +1,6 @@
 # Análisis Detallado del Código Flutter — Adivina el Número
 
-> **Archivo analizado:** `lib/main.dart`  
+> **Harold Santiago Vergara - Sergio Lamos Lozano**  
 > **Fecha:** 2026-02-21
 
 ---
@@ -560,3 +560,4 @@ Switch(
 La validación en `_verificarAdivinanza` también adapta el límite superior dinámicamente con `_modoDificil ? 200 : 50`.
 
 **Impacto funcional:** Un solo componente `Switch` controla dos parámetros clave del juego de forma reactiva, sin necesidad de pantallas adicionales.
+
